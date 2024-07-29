@@ -7,7 +7,7 @@ public class arrayObjectPessoaTest extends TestCase {
     @Test
     public void testImprimePessoas() {
         Pessoa[] pessoas = new Pessoa[] {
-                new Pessoa("Xand„o", 25),
+                new Pessoa("Xand√£o", 25),
                 new Pessoa("Goku", 60),
                 new Pessoa("Scarpelly", 20),
                 new Pessoa("Dante", 35),
@@ -20,7 +20,7 @@ public class arrayObjectPessoaTest extends TestCase {
     @Test
     public void testPessoaMaisVelha() {  //Teste da Pessoa mais Velha
         Pessoa[] pessoas = new Pessoa[] {
-                new Pessoa("Xand„o", 25),
+                new Pessoa("Xand√£o", 25),
                 new Pessoa("Goku", 60),
                 new Pessoa("Scarpelly", 20),
                 new Pessoa("Dante", 35),
@@ -41,7 +41,7 @@ public class arrayObjectPessoaTest extends TestCase {
     @Test
     public void testPessoaMaisNova() {
         Pessoa[] pessoas = new Pessoa[] {
-                new Pessoa("Xand„o", 25),
+                new Pessoa("Xand√£o", 25),
                 new Pessoa("Goku", 60),
                 new Pessoa("Scarpelly", 20),
                 new Pessoa("Dante", 35),
@@ -62,7 +62,7 @@ public class arrayObjectPessoaTest extends TestCase {
     @Test
     public void testePessoaComMesmaIdade() { //Duas pessoas com a mesma idade
         Pessoa[] pessoas = new Pessoa[] {
-                new Pessoa("Xand„o", 25),
+                new Pessoa("Xand√£o", 25),
                 new Pessoa("Goku", 60),
                 new Pessoa("Scarpelly", 25),
                 new Pessoa("Dante", 35),
@@ -75,7 +75,7 @@ public class arrayObjectPessoaTest extends TestCase {
             }
         }
 
-        assertEquals("Scarpelly", maisNova.getNome());
+        assertEquals("Xand√£o", maisNova.getNome());
         assertEquals(25, maisNova.getIdade());
     }
 }
